@@ -5,14 +5,11 @@ import {FaArrowUp} from 'react-icons/fa'
  
 const Container = styled.div`
 
-
-
-
 `
 
 const Button = styled.button`
 position: fixed;
-bottom: 260px;
+bottom: 80px;
 right: 20px;
 outline: none;
 border: none;

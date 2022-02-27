@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import LogoPic from '../assets/cryptologo.png'
 
 
@@ -77,7 +77,8 @@ display: flex;
 flex-direction: column;
 justify-content: flex-start;
 `
-const FootLink  = styled.div`
+const FootLink  = styled(Link)`
+text-decoration: none;
 font-size: 20px;
 line-height: 20px;
 padding:  5px 0;
@@ -120,20 +121,20 @@ function Footer() {
         </Div2>
         <Div3>
             <FootLinks>
-                <FootLink>About</FootLink>
-                <FootLink>Growers</FootLink>
-                <FootLink>Merchants</FootLink>
-                <FootLink>Partners</FootLink>
-                <FootLink>Contact</FootLink>
+                <FootLink  to='#'>About</FootLink>
+                <FootLink  to='#'>Growers</FootLink>
+                <FootLink  to='#'>Merchants</FootLink>
+                <FootLink  to='#'>Partners</FootLink>
+                <FootLink  to='#'>Contact</FootLink>
             </FootLinks>
         </Div3>
         <Div4>
             <FootLinks>
-                <FootLink>About</FootLink>
-                <FootLink>Growers</FootLink>
-                <FootLink>Merchants</FootLink>
-                <FootLink>Partners</FootLink>
-                <FootLink>Contact</FootLink>
+                <FootLink to='#'>About</FootLink>
+                <FootLink  to='#'>Growers</FootLink>
+                <FootLink  to='#'>Merchants</FootLink>
+                <FootLink  to='#'>Partners</FootLink>
+                <FootLink  to='#'>Contact</FootLink>
             </FootLinks>
             </Div4>
      </Foot>
