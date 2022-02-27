@@ -5,6 +5,7 @@ import Flex from '../components/Flex'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import ScrollToTop from '../components/ScrollToTop'
+import SocialConnect from '../components/SocialConnect'
 import TopBar from '../components/TopBar'
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
     <Banner/>
     <Flex/>
     <Cta/>
+    <SocialConnect/>
     <Footer/>
     <ScrollToTop/>
     </>

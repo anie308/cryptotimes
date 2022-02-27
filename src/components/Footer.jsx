@@ -20,6 +20,7 @@ const Foot = styled.div`
 
 
     @media screen and (max-width:900px){
+        padding: 30px 20px;
         flex-direction: column;
     }
 

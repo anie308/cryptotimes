@@ -5,10 +5,14 @@ import LogoPic from '../assets/cryptologo.png'
 const Container = styled.div`
 padding: 20px 30px;
 margin: 0;
-    background: #1D1D1D;
+background: #1D1D1D;
+
 
     @media screen and (max-width: 900px){
         padding: 15px;
+        position: sticky;
+        top: 0;
+        z-index: 999;
     }
 `
 const LogoCon = styled.div`
