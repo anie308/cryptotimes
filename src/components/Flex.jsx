@@ -9,8 +9,9 @@ top: -200px;
 height: 250px;
 
 @media screen and (max-width:900px){
-top: -200px;
-height: 100px;
+  display: none;
+  /* top: -200px;
+  height: 100px; */
 }
 
 `

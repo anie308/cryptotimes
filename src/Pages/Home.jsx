@@ -4,7 +4,7 @@ import Cta from '../components/Cta'
 import Flex from '../components/Flex'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-// import ScrollToTop from '../components/ScrollToTop'
+import ScrollToTop from '../components/ScrollToTop'
 import TopBar from '../components/TopBar'
 
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
     <Flex/>
     <Cta/>
     <Footer/>
-    {/* <ScrollToTop/> */}
+    <ScrollToTop/>
     </>
   )
 }

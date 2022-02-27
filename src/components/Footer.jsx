@@ -55,7 +55,7 @@ padding-top: 25px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-color: #C4C4C4;
+color: #FFFF;
 
 `
 const Address = styled.address`
@@ -81,7 +81,7 @@ const FootLink  = styled.div`
 font-size: 20px;
 line-height: 20px;
 padding:  5px 0;
-color:#C4C4C4 ;
+color: #FFFF;
 `
 
 const Div4  = styled.div` 
@@ -92,7 +92,7 @@ padding-top: 25px;
 const Copy  = styled.div` 
 text-align: center;
 padding: 20px;
-color: #C4C4C4;
+color: #FFFF;
 
 `
 

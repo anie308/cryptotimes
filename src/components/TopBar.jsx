@@ -1,4 +1,5 @@
 import React from 'react'
+
 import styled from 'styled-components'
 import  {FaFacebook, FaTwitter, FaInstagramSquare, FaLinkedin} from 'react-icons/fa'
 
@@ -16,9 +17,10 @@ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
 
 
 @media screen and (max-width:900px){
-    padding: 10px;
+    display: none;
+    /* padding: 10px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
 }
 `
 const Div1 = styled.div`
