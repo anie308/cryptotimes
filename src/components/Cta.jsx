@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-// import People from '../assets/people.png'
+import People from '../assets/people.png'
 
 
 const Container = styled.div`
@@ -146,7 +146,7 @@ function Cta() {
                 </CtaForm>
             </CtaMessage>
             <CtaImage>
-              {/* <Image src={People}/> */}
+              <Image src={People}/>
             </CtaImage >
 
         </CtaCon>
