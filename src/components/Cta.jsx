@@ -7,7 +7,7 @@ const Container = styled.div`
 padding: 20px 40px;
 
 @media screen and (max-width:900px){
-    padding: 10px;
+    padding: 20px;
 
 }
 `
@@ -24,7 +24,7 @@ justify-content: space-between;
 `
 const CtaMessage = styled.div` `
 const Main = styled.div`
-font-size: 40px;
+font-size: 38px;
 line-height: 49px;
 letter-spacing: -0.015em;
 font-family: poppins;
@@ -60,13 +60,23 @@ br{
    }
 
 `
-const CtaImage = styled.div` `
+const CtaImage = styled.div`
+
+
+@media screen and (max-width:900px){
+  margin-top: 30px;
+}
+`
 const Image = styled.img` 
 width: 500px;
 
+@media screen and (max-width:1200px){
+  width: 400px;
+}
 @media screen and (max-width:900px){
   width: 300px;
-}`
+}
+`
 
 const CtaForm = styled.form`
 display: flex;
@@ -87,7 +97,7 @@ box-sizing: border-box;
 border-radius: 5px;
 margin-right: 10px;
 padding: 0 10px;
-font-size: 20px;
+font-size: 16px;
 outline: none;
 
 
@@ -96,7 +106,6 @@ outline: none;
     font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-/* identical to box height */
 
 @media screen and (max-width:900px){
   width: 100%;
@@ -141,7 +150,7 @@ function Cta() {
                 <Main>With over thousands of <br/> subscribers and crypto <br/> influencers</Main>
                 <Follow>Join our community of blockchain enthusiats and <br/> crypto traders to access the global market</Follow>
                 <CtaForm>
-                    <Input type='text' placeholder='Email address...' required/>
+                    <Input type='email' placeholder='Email address...' required/>
                     <Submit type='submit'>Join</Submit>
                 </CtaForm>
             </CtaMessage>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+import {FaTwitter, FaYoutube} from 'react-icons/fa'
 
 const Container = styled.div` 
 padding: 70px 10px;
@@ -78,35 +79,78 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 
+@media screen and (max-width: 900px){
+  flex-direction: column;
+}
+
+`
+const SocialLinkCon = styled.div`
+display: flex;
+align-items: center;
 `
 const SocialL1 = styled(Link)` 
 font-family: Klavika;
 font-size: 35px;
 color: #000;
 text-decoration: none;
-margin-right: 30px;
+margin-right: 25px;
+
+@media screen and (max-width:900px){
+    margin: 4px 0;
+
+}
 `
 const SocialL2 = styled(Link)` 
 font-family: Billabong;
 font-size: 35px;
 color: #000;
 text-decoration: none;
-margin-right: 30px;
+margin-right: 25px;
+
+@media screen and (max-width:900px){
+    margin: 4px 0;
+
+}
 
 `
 const SocialL3 = styled(Link)`
+display: flex;
+align-items: center;
 font-family: Pico Black;
 font-size: 35px;
 color: #000;
 text-decoration: none;
-margin-right: 30px;
+margin-right: 25px;
 
+
+.icon{
+  font-size: 28px;
+  margin-left:2px;
+}
+
+@media screen and (max-width:900px){
+    margin: 4px 0;
+
+}
 `
 const SocialL4 = styled(Link)` 
+display: flex;
+align-items: center;
 font-family: Kenyan Coffee;
 font-size: 35px;
 color: #000;
 text-decoration: none;
+
+.icon{
+  font-size: 30px;
+  margin-left:2px;
+}
+
+
+@media screen and (max-width:900px){
+    margin: 4px 0;
+
+}
 `
 
 function SocialConnect() {
@@ -116,10 +160,11 @@ function SocialConnect() {
         <Sub>Hey! Follow us on Social Media</Sub>
         <Catchy>Stay updated with content around the world of <br/> Blockchain economy by following us on social media </Catchy>
         <SocialCon>
-            <SocialL1 to='#'>facebook</SocialL1>
-            <SocialL2 to='#'>Instagram</SocialL2>
-            <SocialL3 to='#'>twitter</SocialL3>
-            <SocialL4 to='#'>YoutubeTv</SocialL4>
+          <SocialLinkCon><SocialL1 to='#'>facebook</SocialL1></SocialLinkCon>
+          <SocialLinkCon> <SocialL2 to='#'>Instagram</SocialL2></SocialLinkCon>
+          <SocialLinkCon><SocialL3 to='#'>twitter <FaTwitter className='icon'/ ></SocialL3></SocialLinkCon>
+          <SocialLinkCon><SocialL4 to='#'>YoutubeTv <FaYoutube className='icon' /></SocialL4></SocialLinkCon>
+           
         </SocialCon>
     </Container>
   )

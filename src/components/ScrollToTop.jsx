@@ -9,7 +9,7 @@ const Container = styled.div`
 
 const Button = styled.button`
 position: fixed;
-bottom: 80px;
+bottom: 50px;
 right: 20px;
 outline: none;
 border: none;
@@ -24,6 +24,11 @@ transition: all ease-in 0.5s;
     height: 30px;
     width: 20px;
     color: #ffff;
+}
+
+
+@media screen and (max-width:900px){
+    bottom: 80px;
 }
 `
 
