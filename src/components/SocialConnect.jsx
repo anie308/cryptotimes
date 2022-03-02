@@ -117,7 +117,7 @@ const SocialL3 = styled(Link)`
 display: flex;
 align-items: center;
 font-family: Pico Black;
-font-size: 35px;
+font-size: 32px;
 color: #000;
 text-decoration: none;
 margin-right: 25px;
