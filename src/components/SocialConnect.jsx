@@ -12,7 +12,7 @@ align-items: center;
 text-align: center;
 `
 const Main = styled.div`
-/* font-family: 'klavika-bold'; */
+font-family: 'Klavika';
 color: #F8B133;
 font-size: 25px;
 line-height: 29px;
@@ -22,12 +22,16 @@ letter-spacing: -0.015em;
 font-weight: 500;
 
 @media screen and (max-width:900px){
-    font-size: 18px;
-    line-height: 15px;
+  font-size: 16px;
+line-height: 14px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
 
 }
 `
 const Sub = styled.div`
+font-family: Gilroy;
 font-size: 50px;
 line-height: 59px;
 display: flex;
@@ -40,12 +44,14 @@ font-weight: 500;
 
 
 @media screen and (max-width:900px){
-    font-size: 28px;
-    line-height: 35px;
+  font-size: 28px;
+line-height: 33px;
+letter-spacing: -0.015em;
 
 }
  `
 const Catchy = styled.div`
+    font-family: SF Pro Display;
 margin-top: 30px;
 font-style: normal;
 font-weight: normal;
@@ -68,8 +74,14 @@ br{
 
 @media screen and (max-width:900px){
     margin-top: 10px;
- font-size: 20px;
- line-height: 20px;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
 }
 `
 
@@ -90,7 +102,7 @@ align-items: center;
 `
 const SocialL1 = styled(Link)` 
 font-family: Klavika;
-font-size: 35px;
+font-size: 20px;
 color: #000;
 text-decoration: none;
 margin-right: 25px;
@@ -102,7 +114,7 @@ margin-right: 25px;
 `
 const SocialL2 = styled(Link)` 
 font-family: Billabong;
-font-size: 35px;
+font-size: 20px;
 color: #000;
 text-decoration: none;
 margin-right: 25px;
@@ -117,7 +129,7 @@ const SocialL3 = styled(Link)`
 display: flex;
 align-items: center;
 font-family: Pico Black;
-font-size: 32px;
+font-size: 20px;
 color: #000;
 text-decoration: none;
 margin-right: 25px;
@@ -137,7 +149,7 @@ const SocialL4 = styled(Link)`
 display: flex;
 align-items: center;
 font-family: Kenyan Coffee;
-font-size: 35px;
+font-size: 20px;
 color: #000;
 text-decoration: none;
 

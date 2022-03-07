@@ -41,9 +41,10 @@ const Logo = styled.img`
     
 `
 const LogoText= styled.div`
+font-family: Klavika;
 display: flex;
 color: white;
-font-size: 24px;
+font-size: 20px;
 padding-left: 5px;
     
 `
@@ -63,15 +64,53 @@ const Address = styled.address`
 font-style: normal;
 font-size: 20px;
 margin-bottom: 20px;
+
+@media screen and (max-width:900px){
+    display: none;
+}
 `
 const DetCon  = styled.div` 
 font-size: 20px;
+
+
+
 `
-const Number  = styled.div` `
-const Mail  = styled.div` `
+const Number  = styled.div`
+
+font-family: SF Pro Display;
+margin-bottom: 10px;
+
+@media screen and (max-width:900px){
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+}`
+const Mail  = styled.div` 
+font-family: SF Pro Display;
+
+@media screen and (max-width:900px){
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+}
+
+`
 const Div3  = styled.div`
 padding-top: 25px;
 
+@media screen and (max-width:900px){
+    display: none;
+}
 `
 const FootLinks  = styled.div` 
 display: flex;
@@ -89,12 +128,17 @@ color: #FFFF;
 const Div4  = styled.div` 
 padding-top: 25px;
 
+@media screen and (max-width:900px){
+    display: none;
+}
+
 
 `
 const Copy  = styled.div` 
 text-align: center;
 padding: 20px;
 color: #FFFF;
+font-family: SF Pro Display;
 
 `
 
@@ -131,11 +175,10 @@ function Footer() {
         </Div3>
         <Div4>
             <FootLinks>
-                <FootLink to='#'>About</FootLink>
-                <FootLink  to='#'>Growers</FootLink>
-                <FootLink  to='#'>Merchants</FootLink>
-                <FootLink  to='#'>Partners</FootLink>
-                <FootLink  to='#'>Contact</FootLink>
+                <FootLink to='#'>Facebook</FootLink>
+                <FootLink  to='#'>Twitter</FootLink>
+                <FootLink  to='#'>LinkedIn</FootLink>
+                <FootLink  to='#'>Instagram</FootLink>
             </FootLinks>
             </Div4>
      </Foot>

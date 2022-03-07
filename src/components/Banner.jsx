@@ -23,9 +23,12 @@ margin: 0;
 font-size: 25px;
 color:  #F8B133;
 font-weight: 400;
+font-family: SF Pro Display;
 
 @media screen and (max-width:900px){
-   font-size: 17px;
+   font-size: 15px;
+   letter-spacing: 39.5%;
+line-height: 15.51px;
 }
 `
 const Sub = styled.h2`
@@ -34,6 +37,7 @@ font-size: 60px;
 line-height: 70.31px;
 text-align: center;
 color:#FFFFFF;
+font-family: Gilroy;
 
 br{
   @media screen and (max-width:900px){
@@ -43,12 +47,17 @@ br{
 }
 
 @media screen and (max-width:900px){
-   font-size: 30px;
-   line-height: 34px;
+  font-size: 28px;
+line-height: 33px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
 }
 `
 const Small = styled.p`
 margin: 0;
+margin-top: 10px;
 font-size: 30px;
 line-height: 35.8px;
 text-align: center;
@@ -59,16 +68,19 @@ span{
   color: #F8B133;
   font-weight: 500;
 }
-br{
+.br{
   @media screen and (max-width:900px){
    display: none;
   
 }
 }
+.mob{
+
+}
 
 @media screen and (max-width:900px){
-   font-size: 20px;
-   line-height: 30px;
+   font-size: 16px;
+   line-height: 19.09px;
    margin-top: 10px;
 }
 `
@@ -112,6 +124,7 @@ align-items: center;
 letter-spacing: -0.015em;
 color: #ffff;
 margin: 20px 0;
+font-family: Gilroy;
 
 span{
   color: #F8B133;
@@ -120,6 +133,13 @@ span{
 
   @media screen and (max-width:900px){
 padding: 0 5px;
+font-size: 28px;
+line-height: 33px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+
+
   
 }
 }
@@ -143,6 +163,8 @@ text-align: center;
 letter-spacing: -0.015em;
 color: #ffff;
 margin: 10px 0;
+font-family: SF Pro Display;
+
 
 br{
   @media screen and (max-width:900px){
@@ -153,8 +175,15 @@ display: none;
 
 
 @media screen and (max-width:900px){
-font-size: 25px;
-line-height: 30px;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
   
 }
 `
@@ -164,13 +193,13 @@ function Banner() {
     <Container>
             <Head>NEWS HEADLINE </Head>
             <Sub>View the world of Blockchain <br/>from the Crypto lens</Sub>
-            <Small>We bring you tonnes on happenings around the <br/> world of Blockchain here on <span>Cryptotimes TV.</span></Small>
+            <Small>We bring you tonnes on happenings around the <br className='br'/> world of Blockchain here on <br className='mob'/><span>Cryptotimes TV.</span></Small>
 
             <ImageCon>
               <Img src={Phone}/>
             </ImageCon>
             <ImageTxtCon>
-          <ImageFTxt>  From the  <span> Crypto</span>   lens</ImageFTxt>
+          <ImageFTxt>  From the  <span> Crypto</span>lens</ImageFTxt>
           <ImageSTxt>  Stay tuned on Cryptotimes TV for updates on the <br/>cryptocurrency market, and blockchain economy <br/> from our finest of programs.</ImageSTxt>
             </ImageTxtCon>
            

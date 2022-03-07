@@ -14,3 +14,11 @@
     font-family: 'Pico Black';
     src: url('./pico-black.ttf');
   }
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./Gilroy-ExtraBold.otf');
+  }
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./SFPRODISPLAYBOLD.OTF');
+  }

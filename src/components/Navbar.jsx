@@ -28,6 +28,7 @@ const Logo = styled.img`
     }
 `
 const LogoText= styled.div`
+font-family: Klavika;
 display: flex;
 color: white;
 font-size: 20px;
