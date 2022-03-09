@@ -37,7 +37,7 @@ font-size: 60px;
 line-height: 70.31px;
 text-align: center;
 color:#FFFFFF;
-font-family: Gilroy;
+font-family: Gilroy-Bold;
 
 br{
   @media screen and (max-width:900px){
@@ -124,7 +124,7 @@ align-items: center;
 letter-spacing: -0.015em;
 color: #ffff;
 margin: 20px 0;
-font-family: Gilroy;
+font-family: Gilroy-Bold;
 
 span{
   color: #F8B133;

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import LogoPic from '../assets/cryptologo.png'
+import LogoPic from '../assets/logo.png'
 
 const Container = styled.div`
 padding: 20px 30px;
@@ -21,14 +21,13 @@ align-items: center;
     
 `
 const Logo = styled.img`
-    
+    height: 40px;
 
     @media screen and (max-width: 900px){
         height: 30px;
     }
 `
 const LogoText= styled.div`
-font-family: Klavika;
 display: flex;
 color: white;
 font-size: 20px;
@@ -45,10 +44,7 @@ function Navbar() {
     <Container>
         <LogoCon>
             <Logo src={LogoPic}/>
-            <LogoText>
-                Cryptotimes
-                <Span>tv.</Span>
-            </LogoText>
+
         </LogoCon>
     </Container>
   )

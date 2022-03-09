@@ -15,10 +15,10 @@
     src: url('./pico-black.ttf');
   }
 @font-face {
-    font-family: 'Gilroy';
-    src: url('./Gilroy-ExtraBold.otf');
+    font-family: 'Gilroy-Bold';
+    src: url('./Gilroy-Bold.ttf');
   }
 @font-face {
     font-family: 'SF Pro Display';
-    src: url('./SFPRODISPLAYBOLD.OTF');
+    src: url('./SFUIText-Regular.ttf');
   }

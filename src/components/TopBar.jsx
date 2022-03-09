@@ -50,8 +50,17 @@ font-size: 15px;
 const Tet = styled.p`
 margin: 0;
     margin-right: 10px;
-    font-family: poppins;
+    font-family: SF Pro Display;
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
 
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
     @media screen and (max-width:900px){
    margin: 0;
 }

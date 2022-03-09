@@ -31,7 +31,7 @@ letter-spacing: -0.015em;
 }
 `
 const Sub = styled.div`
-font-family: Gilroy;
+font-family: Gilroy-Bold;
 font-size: 50px;
 line-height: 59px;
 display: flex;

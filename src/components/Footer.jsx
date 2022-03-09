@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
-import LogoPic from '../assets/cryptologo.png'
+import LogoPic from '../assets/logo.png'
 
 
 const Container  = styled.div`
@@ -38,6 +38,7 @@ align-items: center;
     
 `
 const Logo = styled.img`
+height: 30px;
     
 `
 const LogoText= styled.div`
@@ -149,10 +150,7 @@ function Footer() {
      <Div1>
         <LogoCon>
             <Logo src={LogoPic}/>
-            <LogoText>
-                Cryptotimes
-                <Span>tv.</Span>
-            </LogoText>
+           
         </LogoCon>
         </Div1>
         <Div2>
