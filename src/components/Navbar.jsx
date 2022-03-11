@@ -27,16 +27,7 @@ const Logo = styled.img`
         height: 30px;
     }
 `
-const LogoText= styled.div`
-display: flex;
-color: white;
-font-size: 20px;
-padding-left: 5px;
-    
-`
-const Span = styled.div`
-    color: #F8B133;
-`
+
 
 
 function Navbar() {

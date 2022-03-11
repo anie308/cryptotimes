@@ -38,20 +38,10 @@ align-items: center;
     
 `
 const Logo = styled.img`
-height: 30px;
+height: 40px;
     
 `
-const LogoText= styled.div`
-font-family: Klavika;
-display: flex;
-color: white;
-font-size: 20px;
-padding-left: 5px;
-    
-`
-const Span = styled.div`
-    color: #F8B133;
-`
+
 
 const Div2  = styled.div`
 padding-top: 25px;
