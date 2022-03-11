@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Phone from '../assets/PHONE.png'
 
 const Container = styled.div` 
+position: relative;
 background: #1D1D1D;
 display: flex;
 flex-direction: column;
@@ -19,11 +20,13 @@ margin: 0;
 
 `
 const Head = styled.h1`
-margin: 0;
+/* margin: 0; */
 font-size: 25px;
 color:  #F8B133;
 font-weight: 400;
+letter-spacing: 39.5%;
 font-family: SF Pro Display;
+margin-bottom:20px;
 
 @media screen and (max-width:900px){
    font-size: 15px;
@@ -38,6 +41,8 @@ line-height: 70.31px;
 text-align: center;
 color:#FFFFFF;
 font-family: Gilroy-Bold;
+margin-bottom:20px;
+
 
 br{
   @media screen and (max-width:900px){

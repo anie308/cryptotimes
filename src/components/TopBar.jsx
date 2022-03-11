@@ -1,7 +1,15 @@
 import React from 'react'
 
 import styled from 'styled-components'
-import  {FaFacebook, FaTwitter, FaInstagramSquare, FaLinkedin} from 'react-icons/fa'
+import Fb from '../assets/fb.png'
+import LinkedIn from '../assets/in.png'
+import Twitter from '../assets/twi.png'
+import Instagram from '../assets/insta.png'
+
+
+
+
+
 
 const Container = styled.div`
 background: #ffff;
@@ -65,23 +73,31 @@ letter-spacing: -0.015em;
    margin: 0;
 }
 `
+const Icon = styled.img` 
+cursor: pointer;
+margin-right: 20px;
+height: 25px;
+`
 
 function TopBar() {
   return (
     <Container>
 <Div1>
 <SocialLink>
-<FaFacebook className='icon'/>
+    <Icon src={Fb}/>
 </SocialLink> 
 
 <SocialLink>
-<FaTwitter  className='icon'/>
+<Icon src={Twitter}/>
+
 </SocialLink> 
 <SocialLink>
-<FaInstagramSquare className='icon'/> 
+<Icon src={Instagram}/>
+
 </SocialLink>  
 <SocialLink>
-<FaLinkedin className='icon'/> 
+<Icon src={LinkedIn}/>
+
 </SocialLink>  
 </Div1>
 <Div2>

@@ -1,16 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import People from '../assets/people.png'
-import Bit from '../assets/bitcoin.png'
 
 
 
 const Container = styled.div`
 padding: 20px 40px;
-background: url(${Bit}) no-repeat;
 position: relative;
-/* background-position: bottom 900px left 30px; */
-background-blend-mode: lighten;
 background-size: 1000px;
 
 @media screen and (max-width:900px){
@@ -86,6 +82,7 @@ const CtaImage = styled.div`
 }
 `
 const Image = styled.img` 
+padding-right: 40px;
 width: 500px;
 
 @media screen and (max-width:1200px){
