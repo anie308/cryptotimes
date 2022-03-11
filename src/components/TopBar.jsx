@@ -1,6 +1,9 @@
 import React from 'react'
 
 import styled from 'styled-components'
+
+import {AiFillFacebook} from 'react-icons/ai'
+
 import Fb from '../assets/fb.png'
 import LinkedIn from '../assets/in.png'
 import Twitter from '../assets/twi.png'
@@ -37,7 +40,7 @@ display: flex;
 const SocialLink = styled.div`
 
     .icon{
-    font-size: 25px;
+    font-size: 28px;
     margin-right: 10px;
     cursor: pointer;
 }
@@ -84,6 +87,7 @@ function TopBar() {
     <Container>
 <Div1>
 <SocialLink>
+    <AiFillFacebook className='icon'/>
     <Icon src={Fb}/>
 </SocialLink> 
 
