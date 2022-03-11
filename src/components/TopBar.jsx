@@ -2,12 +2,12 @@ import React from 'react'
 
 import styled from 'styled-components'
 
-import {AiFillFacebook} from 'react-icons/ai'
+import {AiFillInstagram} from 'react-icons/ai'
+import {BsTwitter} from 'react-icons/bs'
+import {BsLinkedin} from 'react-icons/bs'
+import { RiFacebookBoxFill} from 'react-icons/ri'
 
-import Fb from '../assets/fb.png'
-import LinkedIn from '../assets/in.png'
-import Twitter from '../assets/twi.png'
-import Instagram from '../assets/insta.png'
+
 
 
 
@@ -87,20 +87,19 @@ function TopBar() {
     <Container>
 <Div1>
 <SocialLink>
-    <AiFillFacebook className='icon'/>
-    <Icon src={Fb}/>
+    <RiFacebookBoxFill className='icon'/>
 </SocialLink> 
 
 <SocialLink>
-<Icon src={Twitter}/>
+    <BsTwitter className='icon'/>
 
 </SocialLink> 
 <SocialLink>
-<Icon src={Instagram}/>
+<AiFillInstagram className='icon' />
 
 </SocialLink>  
 <SocialLink>
-<Icon src={LinkedIn}/>
+    <BsLinkedin className='icon' />
 
 </SocialLink>  
 </Div1>
