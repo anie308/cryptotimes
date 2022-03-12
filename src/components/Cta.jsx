@@ -5,8 +5,8 @@ import People from '../assets/people.png'
 
 
 const Container = styled.div`
+margin-top: 100px;
 padding: 20px 40px;
-position: relative;
 background-size: 1000px;
 
 @media screen and (max-width:900px){
@@ -15,6 +15,7 @@ background-size: 1000px;
 }
 `
 const CtaCon = styled.div`
+
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -51,6 +52,7 @@ letter-spacing: -0.015em;
 
 
 const Follow = styled.div`
+margin-top: 10px;
 font-size: 30px;
 font-family: SF Pro Display;
 
@@ -89,6 +91,9 @@ width: 500px;
   width: 400px;
 }
 @media screen and (max-width:900px){
+  padding-right: 0px;
+  margin-bottom: 30px;
+
   width: 300px;
 }
 `
@@ -108,7 +113,7 @@ margin-top: 10px;
 `
 const Input = styled.input`
 width: 400px;
-height: 50px;
+height: 40px;
   background: #FFFFFF;
 border: 1px solid #C9C9C9;
 box-sizing: border-box;
@@ -141,14 +146,14 @@ outline: none;
 }
 `
 const Submit= styled.button`
-height: 50px;
-font-size: 23px;
+height: 40px;
+font-size: 18px;
 border-radius: 5px;
 outline: none;
 border: none;
 cursor: pointer;
 background: #1D1D1D;
-color: #FFFF;
+color:  #F8B133;
 
     @media screen and (max-width:900px){
       height: 38px;
@@ -167,7 +172,7 @@ function Cta() {
         <CtaCon>
             <CtaMessage>
                 <Main>With over thousands of <br/> subscribers and crypto <br/> influencers</Main>
-                <Follow>Join our community of blockchain enthusiats and <br/> crypto traders to access the global market</Follow>
+                <Follow>Subscribe to our community of blockchain <br/>enthusiats and crypto traders to access the <br/> global wealth</Follow>
                 <CtaForm>
                     <Input type='email' placeholder='Email address...' required/>
                     <Submit type='submit'>Subscribe</Submit>

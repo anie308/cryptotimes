@@ -1,10 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import Phone from '../assets/PHONE.png'
+import Flex from './Flex'
 
 const Container = styled.div` 
 position: relative;
-background: #1D1D1D;
+background: #1D1D1D ;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -13,7 +14,7 @@ margin: 0;
 
 
   @media screen and (max-width:900px){
-    padding: 30px 10px;
+    padding: 10px 0px ;
 
   
 }
@@ -24,13 +25,12 @@ const Head = styled.h1`
 font-size: 25px;
 color:  #F8B133;
 font-weight: 400;
-letter-spacing: 39.5%;
+letter-spacing: 10px;
 font-family: SF Pro Display;
 margin-bottom:20px;
 
 @media screen and (max-width:900px){
    font-size: 15px;
-   letter-spacing: 39.5%;
 line-height: 15.51px;
 }
 `
@@ -61,6 +61,7 @@ letter-spacing: -0.015em;
 }
 `
 const Small = styled.p`
+font-family: SF Pro Display;
 margin: 0;
 margin-top: 10px;
 font-size: 30px;
@@ -128,7 +129,7 @@ display: flex;
 align-items: center;
 letter-spacing: -0.015em;
 color: #ffff;
-margin: 20px 0;
+margin-top: 30px;
 font-family: Gilroy-Bold;
 
 span{
@@ -167,7 +168,7 @@ align-items: center;
 text-align: center;
 letter-spacing: -0.015em;
 color: #ffff;
-margin: 10px 0;
+margin: 5px 0;
 font-family: SF Pro Display;
 
 
@@ -198,7 +199,7 @@ function Banner() {
     <Container>
             <Head>NEWS HEADLINE </Head>
             <Sub>View the world of Blockchain <br/>from the Crypto lens</Sub>
-            <Small>We bring you tonnes on happenings around the <br className='br'/> world of Blockchain here on <br className='mob'/><span>Cryptotimes TV.</span></Small>
+            <Small>We bring you tonnes on happenings around the <br className='br'/> world of Blockchain here on <span>Cryptotimes TV.</span></Small>
 
             <ImageCon>
               <Img src={Phone}/>
@@ -207,7 +208,7 @@ function Banner() {
           <ImageFTxt>  From the  <span> Crypto</span>lens</ImageFTxt>
           <ImageSTxt>  Stay tuned on Cryptotimes TV for updates on the <br/>cryptocurrency market, and blockchain economy <br/> from our finest of programs.</ImageSTxt>
             </ImageTxtCon>
-           
+           <Flex/>
     </Container>
   )
 }

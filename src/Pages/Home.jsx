@@ -14,15 +14,14 @@ function Home() {
     <>
     <TopBar/>
     <Navbar/>
-
     <Banner/>
+    {/* <Flex/> */}
     <CtaWrapper>
-
-    <Flex/>
     <Cta/>
     <SocialConnect/>
     </CtaWrapper>
     <Footer/>
+   
     <ScrollToTop/>
     </>
   )
