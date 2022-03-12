@@ -76,11 +76,7 @@ letter-spacing: -0.015em;
    margin: 0;
 }
 `
-const Icon = styled.img` 
-cursor: pointer;
-margin-right: 20px;
-height: 25px;
-`
+
 
 function TopBar() {
   return (
