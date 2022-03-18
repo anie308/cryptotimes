@@ -1,7 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import {FaTwitter, FaYoutube} from 'react-icons/fa'
+import {FaTwitter} from 'react-icons/fa'
+import {BsYoutube} from 'react-icons/bs'
+import { RiFacebookBoxFill} from 'react-icons/ri'
+import {AiFillInstagram} from 'react-icons/ai'
+
 
 const Container = styled.div` 
 padding: 70px 10px;
@@ -31,6 +35,7 @@ letter-spacing: -0.015em;
 }
 `
 const Sub = styled.div`
+margin-top: 15px;
 font-family: Gilroy-Bold;
 font-size: 50px;
 line-height: 59px;
@@ -40,6 +45,7 @@ text-align: center;
 letter-spacing: -0.015em;
 color: #1D1D1D;
 font-weight: 500;
+padding: 0px 30px;
 
 
 
@@ -92,7 +98,7 @@ align-items: center;
 justify-content: space-between;
 
 @media screen and (max-width: 900px){
-  flex-direction: column;
+align-items: center;
 }
 
 `
@@ -101,26 +107,32 @@ display: flex;
 align-items: center;
 `
 const SocialL1 = styled(Link)` 
+display: flex;
+align-items: center;
 font-family: Klavika;
-font-size: 20px;
+font-size: 30px;
 color: #000;
 text-decoration: none;
 margin-right: 25px;
 
 @media screen and (max-width:900px){
-    margin: 4px 0;
+    /* margin: 4px 0; */
 
 }
 `
 const SocialL2 = styled(Link)` 
+display: flex;
+align-items: center;
 font-family: Billabong;
-font-size: 20px;
+font-size: 30px;
 color: #000;
 text-decoration: none;
 margin-right: 25px;
+justify-content: center;
+
 
 @media screen and (max-width:900px){
-    margin: 4px 0;
+    /* margin: 4px 0; */
 
 }
 
@@ -129,7 +141,7 @@ const SocialL3 = styled(Link)`
 display: flex;
 align-items: center;
 font-family: Pico Black;
-font-size: 20px;
+font-size: 30px;
 color: #000;
 text-decoration: none;
 margin-right: 25px;
@@ -141,7 +153,7 @@ margin-right: 25px;
 }
 
 @media screen and (max-width:900px){
-    margin: 4px 0;
+    /* margin: 4px 0; */
 
 }
 `
@@ -149,9 +161,10 @@ const SocialL4 = styled(Link)`
 display: flex;
 align-items: center;
 font-family: Kenyan Coffee;
-font-size: 20px;
+font-size: 30px;
 color: #000;
 text-decoration: none;
+justify-content: center;
 
 .icon{
   font-size: 30px;
@@ -160,8 +173,18 @@ text-decoration: none;
 
 
 @media screen and (max-width:900px){
-    margin: 4px 0;
+    /* margin: 4px 0; */
 
+
+
+
+}
+`
+const Tet = styled.p`
+margin: 0;
+
+@media screen and (max-width: 768px){
+  display: none;
 }
 `
 
@@ -172,10 +195,10 @@ function SocialConnect() {
         <Sub>Hey! Follow us on Social Media</Sub>
         <Catchy>Stay updated with content around the world of <br/> Blockchain economy by following us on social media </Catchy>
         <SocialCon>
-          <SocialLinkCon><SocialL1 to='#'>facebook</SocialL1></SocialLinkCon>
-          <SocialLinkCon> <SocialL2 to='#'>Instagram</SocialL2></SocialLinkCon>
-          <SocialLinkCon><SocialL3 to='#'>twitter <FaTwitter className='icon'/ ></SocialL3></SocialLinkCon>
-          <SocialLinkCon><SocialL4 to='#'>YoutubeTv <FaYoutube className='icon' /></SocialL4></SocialLinkCon>
+          <SocialLinkCon><SocialL1 to='#'><RiFacebookBoxFill/><Tet>facebook</Tet></SocialL1></SocialLinkCon>
+          <SocialLinkCon> <SocialL2 to='#'><AiFillInstagram/><Tet>Instagram</Tet></SocialL2></SocialLinkCon>
+          <SocialLinkCon><SocialL3 to='#'><Tet>twitter</Tet> <FaTwitter className='icon'/ ></SocialL3></SocialLinkCon>
+          <SocialLinkCon><SocialL4 to='#'><BsYoutube className='icon' /><Tet>YoutubeTv</Tet> </SocialL4></SocialLinkCon>
            
         </SocialCon>
     </Container>

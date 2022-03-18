@@ -6,7 +6,7 @@ import LogoPic from '../assets/logo.png'
 
 const Container  = styled.div`
     background: #1D1D1D;
-font-family: Poppins;
+
 
 
 
@@ -48,7 +48,7 @@ padding-top: 25px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-color: #FFFF;
+color: #c4c4c4;
 
 `
 const Address = styled.address`
@@ -98,6 +98,8 @@ letter-spacing: -0.015em;
 `
 const Div3  = styled.div`
 padding-top: 25px;
+color: #c4c4c4;
+
 
 @media screen and (max-width:900px){
     display: none;

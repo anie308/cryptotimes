@@ -12,11 +12,12 @@ export const Background = styled.section`
   .bg {
     position: absolute;
     z-index: -1;
-    filter: blur(8px);
+    opacity: 30%;
+
     
 
     &:nth-child(1) {
-        top: -400px;
+        top: -300px;
         left: 280px;
         img{
             width: 1500px;

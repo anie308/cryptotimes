@@ -5,12 +5,13 @@ import People from '../assets/people.png'
 
 
 const Container = styled.div`
-margin-top: 100px;
+margin-top: 200px;
 padding: 20px 40px;
 background-size: 1000px;
 
 @media screen and (max-width:900px){
     padding: 20px;
+    margin-top: 100px;
 
 }
 `
@@ -20,7 +21,7 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 
-@media screen and (max-width:900px){
+@media screen and (max-width:768px){
    
     flex-direction: column-reverse;
     justify-content: center;
@@ -156,8 +157,9 @@ background: #1D1D1D;
 color:  #F8B133;
 
     @media screen and (max-width:900px){
-      height: 38px;
-      font-size: 16px;
+      /* height: 38px; */
+      font-size: 15px;
+      padding: 8px 10px;
      
 
 }
