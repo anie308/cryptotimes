@@ -174,7 +174,7 @@ function Cta() {
         <CtaCon>
             <CtaMessage>
                 <Main>With over thousands of <br/> subscribers and crypto <br/> influencers</Main>
-                <Follow>Subscribe to our community of blockchain <br/>enthusiats and crypto traders to access the <br/> global wealth</Follow>
+                <Follow>Subscribe to our community of blockchain <br/>enthusiasts and crypto traders to access the <br/> global wealth</Follow>
                 <CtaForm>
                     <Input type='email' placeholder='Email address...' required/>
                     <Submit type='submit'>Subscribe</Submit>
